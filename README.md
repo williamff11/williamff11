@@ -33,7 +33,7 @@ defmodule About.Me do
           }
         }
         
-        schema "users" do
+        schema "about_me" do
           ...
 end
 ```
