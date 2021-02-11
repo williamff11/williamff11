@@ -1,11 +1,11 @@
 ```elixir
-defmodule About.Me do
+defmodule AboutMe do
   @moduledoc """
     A little bit about me.
   """
 
   @type t() :: %__MODULE__{
-          dailyKnowledge: %{
+          daily_knowledge: %{
             elixir: Elixir.t(),
             php: Php.t(),
             javascript: Javascript.t(),
@@ -21,7 +21,7 @@ defmodule About.Me do
             docker: Docker.t(),
             kubernetes: Kubernetes.t()
           },
-          currentWorkplace: %{
+          current_workplace: %{
             company: CrediSIS.t(),
             position: SoftwareEngineer.t()
           },
