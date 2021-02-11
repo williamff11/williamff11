@@ -25,14 +25,19 @@ defmodule About.Me do
             company: CrediSIS.t(),
             position: SoftwareEngineer.t()
           },
-          passions: {
+          passions: %{
             elixir: Elixir.t(),
             aws: Aws.t(),
             tdd: Tdd.t(),
             scrumn: Scrum.t()
+          },
+          contacts: %{
+            email: "williamff11@gmail.com",
+            linkedin: "www.linkedin.com/in/william-freire-121781143",
+            twitter: "twitter.com/WilliamFreire6"
           }
         }
-        
+
         schema "about_me" do
           ...
 end
