@@ -38,7 +38,8 @@ defmodule AboutMe do
           }
         }
 
-        schema "about_me" do
-          ...
+  schema "about_me" do
+    ...
+  end
 end
 ```
