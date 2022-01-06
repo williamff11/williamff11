@@ -12,6 +12,7 @@ defmodule AboutMe do
     phoenix: Phoenix.t(),
     laravel: Laravel.t(),
     vuejs: VueJs.t(),
+    react: React.t(),
     angular: Angular.t(),
     springboot: Springboot.t(),
     aws: Aws.t(),
