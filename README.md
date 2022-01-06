@@ -21,7 +21,7 @@ defmodule AboutMe do
     kubernetes: Kubernetes.t()
   },
   current_workplace: %{
-    company: Neru.t(),
+    company: GenPag.t(),
     position: BackEndElixir.t()
   },
   passions: %{
