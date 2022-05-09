@@ -9,6 +9,7 @@ defmodule AboutMe do
     php: Php.t(),
     javascript: Javascript.t(),
     java: Java.t(),
+    ruby: Ruby.t(),
     phoenix: Phoenix.t(),
     laravel: Laravel.t(),
     vuejs: VueJs.t(),
@@ -19,11 +20,12 @@ defmodule AboutMe do
     postgressql: PostgresSql.t(),
     mysql: Mysql.t(),
     docker: Docker.t(),
-    kubernetes: Kubernetes.t()
+    kubernetes: Kubernetes.t(),
+    ruby_on_rails: RubyOnRails.t()
   },
   current_workplace: %{
-    company: GenPag.t(),
-    position: BackEndElixir.t()
+    company: Pipefy.t(),
+    position: BackEndEngineer.t()
   },
   passions: %{
     elixir: Elixir.t(),
