@@ -24,7 +24,7 @@ defmodule AboutMe do
     ruby_on_rails: RubyOnRails.t()
   },
   current_workplace: %{
-    company: Pipefy.t(),
+    company: Iza.t(),
     position: BackEndEngineer.t()
   },
   passions: %{
